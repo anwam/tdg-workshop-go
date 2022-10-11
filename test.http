@@ -1,8 +1,8 @@
-GET http://localhost:3030/billing/anwam
+GET http://localhost:3001/billing/anwam
 
 ###
 
-POST http://localhost:3030/billing/anwam
+POST http://localhost:3001/billing/{{$guid}}
 Content-Type: application/json
 
 {
